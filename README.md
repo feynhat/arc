@@ -7,7 +7,7 @@ NISER Archive
  * Install: `python`, `postgresql`
  * Clone the repo.
  * Create a [virtual environment](https://docs.python.org/3/tutorial/venv.html) and run `pip install -r requirements.txt`.
- * You'll have to provide [`/arc/local_settings.py`](https://pastebin.com/S9yV4yj5).
+ * You'll have to provide [`/arc/local_settings.py`](https://pastebin.com/Keq0RXiZ).
  * ~~You'll also have to fix some of the absolute paths in `/arc/settings.py` because~~ I am lazy.
  * `npm install -g jquery popper.js bootstrap katex showdown open-iconic`. Then, `cd` to `/main/static/main` and create a symlink to the installed dependencies using: `npm link jquery popper.js bootstrap katex open-iconic showdown`.
  * `cd` to the cloned repo (while you're still in virtual env) and run: `python manage.py collectstatic`, `python manage.py makemigrations main`, `python manage.py migrate`
